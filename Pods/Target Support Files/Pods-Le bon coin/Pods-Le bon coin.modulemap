@@ -1,0 +1,6 @@
+framework module Pods_Le_bon_coin {
+  umbrella header "Pods-Le bon coin-umbrella.h"
+
+  export *
+  module * { export * }
+}

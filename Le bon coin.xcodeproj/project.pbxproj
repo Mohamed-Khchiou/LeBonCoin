@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		626601272166592F00B55E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626601262166592F00B55E85 /* AppDelegate.swift */; };
+		626601292166592F00B55E85 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626601282166592F00B55E85 /* HomeController.swift */; };
+		6266012C2166592F00B55E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6266012A2166592F00B55E85 /* Main.storyboard */; };
+		6266012E2166593000B55E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6266012D2166593000B55E85 /* Assets.xcassets */; };
+		626601312166593000B55E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6266012F2166593000B55E85 /* LaunchScreen.storyboard */; };
+		6266013D21665A7300B55E85 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266013C21665A7300B55E85 /* MainTabBarController.swift */; };
+		6266014021665AB100B55E85 /* NewOfferController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266013F21665AB100B55E85 /* NewOfferController.swift */; };
+		62D1C4D02166600D0043512A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62D1C4CF2166600D0043512A /* GoogleService-Info.plist */; };
+		69217F55235844BD00F929B5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69217F53235844BD00F929B5 /* Extensions.swift */; };
+		69217F56235844BD00F929B5 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69217F54235844BD00F929B5 /* CustomImageView.swift */; };
+		69217F59235850C700F929B5 /* Annonce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69217F58235850C700F929B5 /* Annonce.swift */; };
+		69217F5D2358530F00F929B5 /* Offers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69217F5B2358530F00F929B5 /* Offers.xcdatamodeld */; };
+		69217F5F2358603E00F929B5 /* AnnonceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69217F5E2358603E00F929B5 /* AnnonceCell.swift */; };
+		A8F94DCCD7BF6041E2BDD5F9 /* Pods_Le_bon_coin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C339853C5A58F9F5C3E08708 /* Pods_Le_bon_coin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27E589CE5C6A07EC8EF4B193 /* Pods-Le bon coin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Le bon coin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Le bon coin/Pods-Le bon coin.release.xcconfig"; sourceTree = "<group>"; };
+		4226491D82F139265C668B67 /* Pods-Le bon coin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Le bon coin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Le bon coin/Pods-Le bon coin.debug.xcconfig"; sourceTree = "<group>"; };
+		626601232166592E00B55E85 /* Le bon coin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Le bon coin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		626601262166592F00B55E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		626601282166592F00B55E85 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		6266012B2166592F00B55E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6266012D2166593000B55E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		626601302166593000B55E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		626601322166593000B55E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6266013C21665A7300B55E85 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		6266013F21665AB100B55E85 /* NewOfferController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOfferController.swift; sourceTree = "<group>"; };
+		62D1C4CF2166600D0043512A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		69217F53235844BD00F929B5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		69217F54235844BD00F929B5 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		69217F58235850C700F929B5 /* Annonce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annonce.swift; sourceTree = "<group>"; };
+		69217F5C2358530F00F929B5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		69217F5E2358603E00F929B5 /* AnnonceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnonceCell.swift; sourceTree = "<group>"; };
+		C339853C5A58F9F5C3E08708 /* Pods_Le_bon_coin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Le_bon_coin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		626601202166592E00B55E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F94DCCD7BF6041E2BDD5F9 /* Pods_Le_bon_coin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105DE7E9040300B7776A90B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4226491D82F139265C668B67 /* Pods-Le bon coin.debug.xcconfig */,
+				27E589CE5C6A07EC8EF4B193 /* Pods-Le bon coin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53D27C3EDDA70C9FABE6CA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C339853C5A58F9F5C3E08708 /* Pods_Le_bon_coin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6266011A2166592E00B55E85 = {
+			isa = PBXGroup;
+			children = (
+				626601252166592E00B55E85 /* Le bon coin */,
+				626601242166592E00B55E85 /* Products */,
+				105DE7E9040300B7776A90B5 /* Pods */,
+				53D27C3EDDA70C9FABE6CA26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		626601242166592E00B55E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				626601232166592E00B55E85 /* Le bon coin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		626601252166592E00B55E85 /* Le bon coin */ = {
+			isa = PBXGroup;
+			children = (
+				69217F5A235852CB00F929B5 /* Base */,
+				69217F57235850A400F929B5 /* Model */,
+				69217F522358449500F929B5 /* Utils */,
+				6266013A2166594D00B55E85 /* Main */,
+				6266013B2166595400B55E85 /* Home */,
+				6266013E21665A9200B55E85 /* Offer */,
+				626601392166594800B55E85 /* plists */,
+				626601382166593A00B55E85 /* Storyboards */,
+				6266012D2166593000B55E85 /* Assets.xcassets */,
+			);
+			path = "Le bon coin";
+			sourceTree = "<group>";
+		};
+		626601382166593A00B55E85 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6266012A2166592F00B55E85 /* Main.storyboard */,
+				6266012F2166593000B55E85 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		626601392166594800B55E85 /* plists */ = {
+			isa = PBXGroup;
+			children = (
+				62D1C4CF2166600D0043512A /* GoogleService-Info.plist */,
+				626601322166593000B55E85 /* Info.plist */,
+			);
+			path = plists;
+			sourceTree = "<group>";
+		};
+		6266013A2166594D00B55E85 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				626601262166592F00B55E85 /* AppDelegate.swift */,
+				6266013C21665A7300B55E85 /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6266013B2166595400B55E85 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				626601282166592F00B55E85 /* HomeController.swift */,
+				69217F5E2358603E00F929B5 /* AnnonceCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6266013E21665A9200B55E85 /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				6266013F21665AB100B55E85 /* NewOfferController.swift */,
+			);
+			path = Offer;
+			sourceTree = "<group>";
+		};
+		69217F522358449500F929B5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				69217F54235844BD00F929B5 /* CustomImageView.swift */,
+				69217F53235844BD00F929B5 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		69217F57235850A400F929B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69217F58235850C700F929B5 /* Annonce.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69217F5A235852CB00F929B5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				69217F5B2358530F00F929B5 /* Offers.xcdatamodeld */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		626601222166592E00B55E85 /* Le bon coin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626601352166593000B55E85 /* Build configuration list for PBXNativeTarget "Le bon coin" */;
+			buildPhases = (
+				52C105F396E27A9B0569C397 /* [CP] Check Pods Manifest.lock */,
+				6266011F2166592E00B55E85 /* Sources */,
+				626601202166592E00B55E85 /* Frameworks */,
+				626601212166592E00B55E85 /* Resources */,
+				5056FD89027CE099915131C3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Le bon coin";
+			productName = "Le bon coin";
+			productReference = 626601232166592E00B55E85 /* Le bon coin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6266011B2166592E00B55E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Tokidev S.A.S.";
+				TargetAttributes = {
+					626601222166592E00B55E85 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 6266011E2166592E00B55E85 /* Build configuration list for PBXProject "Le bon coin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6266011A2166592E00B55E85;
+			productRefGroup = 626601242166592E00B55E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				626601222166592E00B55E85 /* Le bon coin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		626601212166592E00B55E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626601312166593000B55E85 /* LaunchScreen.storyboard in Resources */,
+				62D1C4D02166600D0043512A /* GoogleService-Info.plist in Resources */,
+				6266012E2166593000B55E85 /* Assets.xcassets in Resources */,
+				6266012C2166592F00B55E85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5056FD89027CE099915131C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Le bon coin/Pods-Le bon coin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Le bon coin/Pods-Le bon coin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52C105F396E27A9B0569C397 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Le bon coin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6266011F2166592E00B55E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69217F59235850C700F929B5 /* Annonce.swift in Sources */,
+				69217F55235844BD00F929B5 /* Extensions.swift in Sources */,
+				69217F56235844BD00F929B5 /* CustomImageView.swift in Sources */,
+				69217F5D2358530F00F929B5 /* Offers.xcdatamodeld in Sources */,
+				626601292166592F00B55E85 /* HomeController.swift in Sources */,
+				69217F5F2358603E00F929B5 /* AnnonceCell.swift in Sources */,
+				626601272166592F00B55E85 /* AppDelegate.swift in Sources */,
+				6266013D21665A7300B55E85 /* MainTabBarController.swift in Sources */,
+				6266014021665AB100B55E85 /* NewOfferController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6266012A2166592F00B55E85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6266012B2166592F00B55E85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6266012F2166593000B55E85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				626601302166593000B55E85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		626601332166593000B55E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		626601342166593000B55E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		626601362166593000B55E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4226491D82F139265C668B67 /* Pods-Le bon coin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Le bon coin/plists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tokidev.leboncoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		626601372166593000B55E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27E589CE5C6A07EC8EF4B193 /* Pods-Le bon coin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Le bon coin/plists/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tokidev.leboncoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6266011E2166592E00B55E85 /* Build configuration list for PBXProject "Le bon coin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626601332166593000B55E85 /* Debug */,
+				626601342166593000B55E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		626601352166593000B55E85 /* Build configuration list for PBXNativeTarget "Le bon coin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626601362166593000B55E85 /* Debug */,
+				626601372166593000B55E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		69217F5B2358530F00F929B5 /* Offers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69217F5C2358530F00F929B5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 69217F5C2358530F00F929B5 /* Model.xcdatamodel */;
+			path = Offers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6266011B2166592E00B55E85 /* Project object */;
+}
